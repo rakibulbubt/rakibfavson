@@ -1,0 +1,86 @@
+header {
+    background-color: #09081b;
+}
+
+.carousel-caption {
+    text-align: right;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner {
+    background-image: url("./image/Banner/xhome-banner.jpg.pagespeed.ic.2ZzsNDQil-.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    width: 100%;
+}
+
+.rkb {
+    float: right;
+    color: white;
+    margin-right: 15rem;
+    margin-top: 16rem;
+}
+
+.bishal {
+    display: flex;
+    height: 50px;
+    padding: 0;
+    background-image: linear-gradient(to bottom, #de6262 0%, #bf0571 100%);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btntext,
+.btnicon {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 24px;
+    color: #fff;
+    height: 100%;
+}
+
+.btnicon {
+    font-size: 1.5em;
+    background-color: white;
+    border-bottom-left-radius: 40px 35px;
+}
+
+.banner1 {
+    background-color: #241A70;
+    width: 100%;
+    height: 700px;
+}
+
+.bnr1 {
+    width: 100%;
+    margin-top: 5rem;
+    margin-left: 15rem;
+}
+
+.hovimg:hover {
+    opacity: 0.5;
+    color: black;
+}
+
+.tt {
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.tt:hover {
+    -webkit-filter: none;
+    filter: none;
+    transition: all 300ms linear 0s;
+}
